@@ -6,11 +6,12 @@
 </template>
 
 <script>
+let str = "hi cc" ;
 export default {
   name: 'home',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: str
     }
   }
 }
@@ -23,6 +24,7 @@ div{
 }
 h1, h2 {
   font-weight: normal;
+  font-size:40px;
 }
 
 ul {
